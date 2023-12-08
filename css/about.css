@@ -1,0 +1,109 @@
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/012/313/012/large_2x/watercolor-pastel-lavender-background-texture-light-purple-stains-on-paper-hand-painted-photo.jpg);
+    background-attachment: fixed;
+    color: #333;
+    font-family: Helvetica, "Open Sans", sans-serif;
+}
+
+li a:hover {
+    background-color: rgb(186, 156, 186);
+}
+
+#About .navbar-nav .nav-link {
+    color: rgb(97, 0, 97);
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+}
+
+header {
+    margin-left: 12px;
+}
+
+.carousel {
+    text-align: center;
+}
+
+.carousel img {
+    max-width: 100%;
+    height: auto;
+    max-height: 500px;
+    margin: 0 auto;
+}
+
+.responsive {
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px; 
+    padding: 5px; 
+    width: 400px; 
+}
+
+.responsive:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+a:visited {
+    color: #000080;
+}
+
+p {
+    color: rgb(56, 56, 56);
+}
+
+main{
+    padding-top: 20px;
+}
+
+article {
+    background-color: #f8f9fa; 
+    padding: 20px; 
+    border-radius: 8px;
+    margin-bottom: 20px; 
+}
+
+article h2 {
+    color: #6c757d; 
+}
+
+article h4 {
+    color: #343a40; 
+}
+
+article p {
+    color: #495057; 
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+footer h4 {
+    margin-bottom: 10px; 
+}
+
+footer ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+footer li {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none; 
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
