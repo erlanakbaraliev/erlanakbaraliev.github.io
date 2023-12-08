@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/dashboard.css">
+        <title>Dashboard - Website of Erlan Akbaraliev</title> 
+          
+    </head>
+
+    <body> 
+        <div class="container-fluid">
+            <header>
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="visually-hidden">
+                            Skip to main content
+                        </h2>
+                        <nav id="skip" class="visually-hidden-focusable">
+                            <a href="#content">Skip to Main</a>
+                        </nav>
+                    </div>
+                </div>
+    
+                <nav id="Dashboard" class="navbar navbar-expand-sm navbar-light">
+                    <a href="#" class="navbar-brand">
+                        <img src="media/Logo.png" alt="Logo Image" style="width: 100px;" class="rounded-pill">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBarItems">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navBarItems">
+                        <ul class="navbar-nav">
+                            <li class="nav-item mx-2">
+                                <a href="index.html#Home" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a href="dashboard.html#Dashboard" class="nav-link active">Dashboard</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a href="about.html#About" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a href="contact.html#Contact" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+        </div>
+        <main>
+            <div class="container" id="content">
+                <h4 id="h4_1" class="mt-3">
+                    Your spendings for this week
+                </h4>
+                <table class="table table-striped mt-5 mx-auto shadow">
+                    <caption>
+                        <strong>Weekly Spendings</strong>
+                        <details>
+                            <summary>Help</summary>
+                            <p>The analysis is based only on the uploaded receipts.</p>
+                        </details>
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Amount/Month</th>
+                            <th>Spent</th>  
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Potato</td>
+                            <td>20 kg</td>
+                            <td>8 000 HUF</td>
+                        </tr>
+                        <tr>
+                            <td>Apple</td>
+                            <td>4 kg</td>
+                            <td>1 200 HUF</td>
+                        </tr>
+                        <tr>
+                            <td>Spagetti</td>
+                            <td>5 kg</td>
+                            <td>3 500 HUF</td>
+                        </tr>
+                        <tr>
+                            <td>Garlic</td>
+                            <td>2 kg</td>
+                            <td> 2500 HUF</td>
+                        </tr>
+                        <tr>
+                            <td>Toilet paper</td>
+                            <td>2</td>
+                            <td>5 000 HUF</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div id="below_table" class="row mb-3">
+                    <div class="col-lg-5 col-sm-12 mb-3 mb-lg-0">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div>
+                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#target" style="width: 400px;">Show financial advise</button>
+                                <div class="collapse" id="target">
+                                    <div class="card card-body">
+                                        Consider buying potato in bulk or during sales to save money in the long run. <br>
+                                        Buying in larger quantities can often be more cost-effective than purchasing smaller amounts on a weekly basis.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-sm-12 text-center">
+                        <aside>
+                            <h4 id="h4_2">Rate the financial advise?</h4>
+                            <div class="radio">
+                                <input type="radio" name="Rating" id="R1" value="1">
+                                <label for="R1">1 - Very bad</label>
+                                
+                                <input type="radio" name="Rating" id="R2" value="2">
+                                <label for="R2">2 - Bad</label>
+            
+                                <input type="radio" name="Rating" id="R3" value="3">
+                                <label for="R3">3 - Satisfactory</label>
+            
+                                <input type="radio" name="Rating" id="R4" value="4">
+                                <label for="R4">4 - Good</label>
+            
+                                <input type="radio" name="Rating" id="R5" value="5">
+                                <label for="R5">5 - Excellent</label>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
